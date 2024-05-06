@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+
+
+
+
 /* regole header */
 header {
     width: 100%;
@@ -29,6 +33,12 @@ header {
     align-items: center;
     list-style-type: none;
 }
+
+
+
+
+
+
 
 /* regole main */
 main {
@@ -100,4 +110,41 @@ main {
     width: 60px;
     height: 30px;
     background-color: burlywood;
+}
+
+
+
+/* regole footer */
+footer {
+    width: 100%;
+    margin-top: 60px;
+    background-color: rgba(26,26,26,255);
+    /* DEBUG */
+    min-height: 100px;
+}
+
+#flex-container-f {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#site-info {
+    background-color: brown;
+}
+
+#site-icons {
+    background-color: brown;
+
+}
+
+#icons-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
 }
