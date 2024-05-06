@@ -124,6 +124,7 @@ main {
     position: absolute;
     bottom: 10px;
     left: 0px;
+    z-index: 30;
 }
 
 .label-discount {
@@ -132,6 +133,7 @@ main {
     padding: 7px;
     background-color: rgba(255,0,0,255);
     margin-right: 10px;
+    z-index: 30;
 }
 
 .label-sust {
@@ -140,6 +142,7 @@ main {
     padding: 7px;
     background-color: rgba(0,128,0,255);
     margin-right: 10px;
+    z-index: 30;
 }
 
 .marca {
