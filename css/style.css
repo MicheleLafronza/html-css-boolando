@@ -18,6 +18,7 @@ header {
     height: 80px;
     background-color: rgba(255,105,0,255);
     position: fixed;
+    z-index: 500;
 
 }
 
