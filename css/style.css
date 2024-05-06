@@ -120,13 +120,6 @@ main {
 
 
 
-.product-bot {
-    /* DEBUG */
-    background-color: brown;
-    min-height: 40px;
-    width: 100%;
-}
-
 .label-group {
     position: absolute;
     bottom: 10px;
@@ -135,19 +128,33 @@ main {
 
 .label-discount {
     display: inline-block;
-    width: 60px;
-    height: 30px;
-    background-color: burlywood;
+    color: white;
+    padding: 7px;
+    background-color: rgba(255,0,0,255);
     margin-right: 10px;
 }
 
 .label-sust {
     display: inline-block;
-    width: 60px;
-    height: 30px;
-    background-color: burlywood;
+    color: white;
+    padding: 7px;
+    background-color: rgba(0,128,0,255);
+    margin-right: 10px;
 }
 
+.marca {
+    font-size: 15px;
+}
+
+.nome-prodotto {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.discount-price {
+    color: red;
+    font-weight: bold;
+}
 
 
 /* regole footer */
