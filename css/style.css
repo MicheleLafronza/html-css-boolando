@@ -55,8 +55,7 @@ header {
 
 /* regole main */
 main {
-    margin-top: 60px;
-    min-height: 2000px;
+    padding-top: 150px;
     
 }
 
@@ -67,36 +66,59 @@ main {
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    /* DEBUG */
-    background-color: blue;
+    /* DEBUG 
+    background-color: blue; */
     
 }
 
 .product {
     width: 33%;
     margin-bottom: 20px;
-    /* DEBUG */
+    /* DEBUG 
     background-color: black;
-    min-height: 200px;
+    min-height: 200px; */
 }
 
 .product-top {
     position: relative;
-    /* DEBUG */
-    background-color: black;
+    /* DEBUG 
     width: 100%;
-    min-height: 160px;
+    min-height: 160px; */
+}
+
+.product-top img {
+    max-width: 100%;
+}
+
+.altimg {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.product:hover .altimg {
+    display: inline-block;
+    z-index: 1;
 }
 
 .heart {
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 45px;
     top: 10px;
     right: 0px;
+    text-align: center;
+    font-size: 40px;
+    z-index: 50;
     /* DEBUG */
-    background-color: yellow;
+    background-color: white
 }
+
+.heart:hover {
+    color: red;
+}
+
+
 
 .product-bot {
     /* DEBUG */
